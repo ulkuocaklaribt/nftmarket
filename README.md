@@ -1,6 +1,6 @@
-# `ethereum-boilerplate-NFT-Marketplaces`
+# `Ülkü Ocakları NFT Marketi`
 
-This Project is a fork of Ethereum Boilerplate and demostrates how you can build your own NFT Marketplace. This project of course work on any EVM-compatible blockchain such as Polygon, Avalanche, Binance Smart Chain and other such chains.
+Bu proje Ethereum Boilerplate projesinden kol oluşturularak(fork) oluşturulmuştur. Proje, Polygon, Avalanche, Binance Smart Chain gibi bütün EVM ile uyumlu bütün blokzincirlerde çalışmaktadır.
 
 ![Preview](preview.gif)
 
