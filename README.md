@@ -1,6 +1,6 @@
 # `Ülkü Ocakları NFT Marketi`
 
-Bu proje Ethereum Boilerplate projesinden kol oluşturularak(fork) oluşturulmuştur. Proje, Polygon, Avalanche, Binance Smart Chain gibi bütün EVM ile uyumlu bütün blokzincirlerde çalışmaktadır.
+Bu proje Ethereum Boilerplate projesinden kol oluşturularak(fork) hazırlanmıştır. Proje, Polygon, Avalanche, Binance Smart Chain gibi bütün EVM ile uyumlu blokzincirlerde çalışmaktadır.
 
 ![Preview](preview.gif)
 
