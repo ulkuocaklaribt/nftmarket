@@ -185,7 +185,7 @@ function NFTTokenIds({ inputValue, setInputValue }) {
             {!fetchSuccess && (
               <>
                 <Alert
-                  message="Unable to fetch all NFT metadata... We are searching for a solution, please try again later!"
+                  message="NFT'yle ilgili bilgileri almakta güçlük çekiyoruz... Lütfen sonra tekrar deneyiniz!"
                   type="warning"
                 />
                 <div style={{ marginBottom: "10px" }}></div>
@@ -223,7 +223,7 @@ function NFTTokenIds({ inputValue, setInputValue }) {
               <Card
                 hoverable
                 actions={[
-                  <Tooltip title="View Collection">
+                  <Tooltip title="Koleksiyona göz at">
                     <RightCircleOutlined
                       onClick={() => setInputValue(nft?.addrs)}
                     />
@@ -250,7 +250,7 @@ function NFTTokenIds({ inputValue, setInputValue }) {
               <Card
                 hoverable
                 actions={[
-                  <Tooltip title="View On Blockexplorer">
+                  <Tooltip title="Blockexplorer'da Görüntüle!">
                     <FileSearchOutlined
                       onClick={() =>
                         window.open(
@@ -260,7 +260,7 @@ function NFTTokenIds({ inputValue, setInputValue }) {
                       }
                     />
                   </Tooltip>,
-                  <Tooltip title="Buy NFT">
+                  <Tooltip title="NFT'yi Satın Al!">
                     <ShoppingCartOutlined onClick={() => handleBuyClick(nft)} />
                   </Tooltip>,
                 ]}
@@ -285,11 +285,11 @@ function NFTTokenIds({ inputValue, setInputValue }) {
         </div>
         {getMarketItem(nftToBuy) ? (
           <Modal
-            title={`Buy ${nftToBuy?.name} #${nftToBuy?.token_id}`}
+            title={`Satın al ${nftToBuy?.name} #${nftToBuy?.token_id}`}
             visible={visible}
             onCancel={() => setVisibility(false)}
             onOk={() => purchase()}
-            okText="Buy"
+            okText="Satın al"
           >
             <Spin spinning={loading}>
               <div
@@ -318,7 +318,7 @@ function NFTTokenIds({ inputValue, setInputValue }) {
           </Modal>
         ) : (
           <Modal
-            title={`Buy ${nftToBuy?.name} #${nftToBuy?.token_id}`}
+            title={`Satın al ${nftToBuy?.name} #${nftToBuy?.token_id}`}
             visible={visible}
             onCancel={() => setVisibility(false)}
             onOk={() => setVisibility(false)}
@@ -333,7 +333,7 @@ function NFTTokenIds({ inputValue, setInputValue }) {
               }}
             />
             <Alert
-              message="This NFT is currently not for sale"
+              message="Bu NFT şuan için satılık değil!"
               type="warning"
             />
           </Modal>

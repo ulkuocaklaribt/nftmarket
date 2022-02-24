@@ -177,7 +177,7 @@ function NFTBalance() {
             <Card
               hoverable
               actions={[
-                <Tooltip title="View On Blockexplorer">
+                <Tooltip title="Blockexplorer'da görüntüle">
                   <FileSearchOutlined
                     onClick={() =>
                       window.open(
@@ -187,7 +187,7 @@ function NFTBalance() {
                     }
                   />
                 </Tooltip>,
-                <Tooltip title="List NFT for sale">
+                <Tooltip title="Satış için NFT'yi listele">
                   <ShoppingCartOutlined onClick={() => handleSellClick(nft)} />
                 </Tooltip>,
               ]}
@@ -209,11 +209,11 @@ function NFTBalance() {
       </div>
 
       <Modal
-        title={`List ${nftToSend?.name} #${nftToSend?.token_id} For Sale`}
+        title={`${nftToSend?.name} #${nftToSend?.token_id} Satışa çıkar!`}
         visible={visible}
         onCancel={() => setVisibility(false)}
         onOk={() => list(nftToSend, price)}
-        okText="List"
+        okText="Satışa Çıkar"
         footer={[
           <Button onClick={() => setVisibility(false)}>
             Cancel
@@ -238,7 +238,7 @@ function NFTBalance() {
           />
           <Input
             autoFocus
-            placeholder="Listing Price in MATIC"
+            placeholder="Listeleme fiyatı (MATIC)"
             onChange={(e) => setPrice(e.target.value)}
           />
         </Spin>
