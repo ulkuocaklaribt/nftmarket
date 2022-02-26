@@ -1,6 +1,13 @@
 export const networkCollections = {
   "0x13881": [
     //Add Your Collections here
+    
+    {
+      image:
+        "https://upload.wikimedia.org/wikipedia/tr/d/db/%C3%9Clk%C3%BC_Ocaklar%C4%B1_Logo.png",
+      name: "Ülkü Ocakları Eğitim ve Kültür Vakfı Koleksiyonu",
+      addrs: "0x1A615b608df4760850435B7398393d2f1D8a4b9D",
+    },
     {
       image:
         "https://lh3.googleusercontent.com/BWCni9INm--eqCK800BbRkL10zGyflxfPwTHt4XphMSWG3XZvPx1JyGdfU9vSor8K046DJg-Q8Y4ioUlWHiCZqgR_L00w4vcbA-w=s0",

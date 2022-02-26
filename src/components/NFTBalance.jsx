@@ -141,6 +141,7 @@ function NFTBalance() {
   }
 
   function addItemImage() {
+    const ItemImage = Moralis.Object.extend("ItemImages");
     const itemImage = new ItemImage();
 
     itemImage.set("image", nftToSend.image);
